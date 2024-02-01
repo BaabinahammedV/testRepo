@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="tt">
+         5 +  7
+   </p>
+   <button type="button" onclick="document.getElementById('tt').innerHTML=addition(5,7)">addition </button>
+   <p id="tr">
+    5 -  7
+   </p>
+   <button type="button" onclick="document.getElementById('tr').innerHTML=subtraction(5,7)">subtraction</button>
+
+   <p id="te">
+    5 *  7
+   </p>
+   <button type="button" onclick="document.getElementById('te').innerHTML=multiply(5,7)">multiply </button>
+   <p id="tw">
+    5 / 7
+   </p>
+   <button type="button" onclick="document.getElementById('tw').innerHTML=division(5,7)">division </button>
+   <script>
+    function addition(a,b)
+        {
+          return a+b; 
+        
+
+        }
+    function subtraction(a,b)
+        {
+          return a-b;
+          
+        }
+    function multiply(a,b)
+        {
+          return a*b;
+          
+        }
+    function division(a,b)
+        {
+          return a/b;
+        
+        }
+
+   </script>
+   
+  
+   
+
+    
+</body>
+</html>
